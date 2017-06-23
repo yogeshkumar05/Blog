@@ -1,0 +1,35 @@
+.blogHeader
+{
+    text-align: center;
+    font-size: 72px;
+}
+.article
+{
+    box-shadow: 1px 1px 5px #888888;
+    margin:25px;
+    padding:10px;
+    
+}
+
+a:hover{
+text-decoration: none;
+}
+.articleTitle
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.articlePreview
+{
+    margin-bottom:50px;
+    color:#999;
+}
+.articleAuthor
+{
+    color:#279e58;
+}
+.articleTime
+{
+    margin-top:10px;
+}
