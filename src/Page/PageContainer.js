@@ -1,7 +1,7 @@
 import React from 'react';
 import PageBody from './PageBody';
 import CommentsContainer from './CommentsContainer';
-
+import WriteComment from './WriteComment';
 export default class PageContainer extends React.Component
 {
     constructor(props)
@@ -13,9 +13,11 @@ export default class PageContainer extends React.Component
     {
         return(
             <div>
-                PageContainer
-                <PageBody/>
-                <CommentsContainer/>
+                <div className="pagebody">
+                        <PageBody index={this.props.index}/>
+                </div>
+                <WriteComment/>
+                <CommentsContainer index={this.props.index}/>
             </div>
         )
     }

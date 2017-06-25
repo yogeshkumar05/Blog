@@ -1,5 +1,6 @@
 import React from 'react';
 import Comment from './Comment';
+import data from '../Blog/data.json';
 export default class CommentsContainer extends React.Component
 {
     constructor(props)
@@ -9,10 +10,18 @@ export default class CommentsContainer extends React.Component
     
     render()
     {
+        let comments=data[this.props.index].comments;
+        let displayComments=[];
+        comments.map((item, index)=>
+        {
+            displayComments.push(<Comment key={index} data={item}/>)
+        })
+
         return(
             <div>
-                CommentsContainer
-                <Comment/>
+                <div>Comments:</div>
+                {displayComments}
+                
             </div>
         )
     }

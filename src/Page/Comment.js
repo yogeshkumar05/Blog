@@ -11,8 +11,8 @@ export default class Comment extends React.Component
     render()
     {
         return(
-            <div>
-                Comment
+            <div className="comments">
+                {this.props.data}
                 <ResponseContainer/>
             </div>
         )

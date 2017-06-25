@@ -13,14 +13,26 @@ export default class Article extends React.Component
         this.state={
             showDetails:false
         }
+
+        this.showBlogPage=this.showBlogPage.bind(this);
+
+        
     }
+    showBlogPage(event)
+        {
+            //alert(this.props.entry.index);
+//alert("article")
+            this.props.showPage(this.props.entry.index)
+
+        }
     
     
     render()
-    {    
+    {    let linktoPage="/page/"+this.props.entry.index;
+        
         return(
-            <Link to="/page" params={{data:this.props.entry}}>
-            <div className="col-sm-5 col-md-5 col-lg-5 article"> 
+            <Link exact to={linktoPage}>
+            <div className="col-sm-5 col-md-5 col-lg-5 article" onClick={this.showBlogPage}> 
                 <ArticleTitle title={this.props.entry.title}/>
                 <ArticlePreview preview={this.props.entry.content}/>
                 <ArticleAuthor author={this.props.entry.author}/>

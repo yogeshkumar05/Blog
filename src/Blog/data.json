@@ -4,7 +4,12 @@
     "title":"Create Reactive Web Apps in pure Python",
     "author": "Sandra Landry",
     "content": "Dash is a Open Source Python library for creating reactive, Web-based applications. Dash started as a public proof-of-concept on GitHub 2 years ago. We kept this prototype online, but subsequent work on Dash occurred behind closed doors. We used feedback from private trials at banks, labs, and data science teams to guide the product forward. Today, we’re excited to announce the first public release of Dash that is both enterprise-ready and a first-class member of Plotly’s open-source tools. Dash can be downloaded today from Python’s package manager with pip install dash — it’s entirely open-source and MIT licensed. You’ll find a getting started guide here and the Dash code on GitHub here.",
-    "timestamp": "Sat Jan 10 1981 09:43:53 GMT+0530 (India Standard Time)"
+    "timestamp": "Sat Jan 10 1981 09:43:53 GMT+0530 (India Standard Time)",
+    "comments":[
+      "comment1 comment1 comment1 comment1",
+      "comment2 comment2 comment2 comment2",
+      "comment3 comment3 comment3 comment3 "
+    ]
   },
   {
     "index": 1,
