@@ -9,7 +9,7 @@ export default class PageHeader extends React.Component
     
     render()
     {
-        //alert(this.props.index)
+        
         let title=data[this.props.index].title;
         return(
             <div className="pageHeader">

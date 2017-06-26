@@ -26,8 +26,7 @@ export default class PageMain extends React.Component
        // alert(stringIndex.slice(-1))
         
         let pageIndex=stringData.slice(-1);
-
-    console.info(JSON.stringify(this.props.location.pathname))
+    
         return(
             <div className="container">
                 <PageHeader index={pageIndex}/>
