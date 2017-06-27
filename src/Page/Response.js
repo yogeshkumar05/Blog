@@ -10,8 +10,8 @@ export default class Response extends React.Component
     render()
     {
         return(
-            <div>
-                Response
+            <div className="reponse">
+                {this.props.reply}
             </div>
         )
     }

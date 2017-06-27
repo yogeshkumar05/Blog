@@ -9,10 +9,16 @@ export default class ResponseContainer extends React.Component
     
     render()
     {
+        let replies=this.props.replies;
+        let displayReplies=[];
+        replies.map((item, index)=>
+        {
+            displayReplies.push(<Response reply={item}/>);
+
+        })
         return(
             <div>
-                ResponseContainer
-                <Response/>
+                {displayReplies}
             </div>
         )
     }
