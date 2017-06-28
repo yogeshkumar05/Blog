@@ -1,5 +1,7 @@
 # Blog
 
+The app is not yet complete..Work in Progress
+
 Demo
 ---------------------------------------------------
 The app is hosted at https://blogpagedemo.herokuapp.com/ for a quick demo
